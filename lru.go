@@ -3,13 +3,12 @@ package lru;
 import (
   "container/list"
   "errors"
-  //"fmt"
 )
 
 // Key for the Entity
 type Key interface{}
 
-// Value for the Entity 
+// Value for the Entity
 type Value interface{}
 
 // Cache is lru cache
